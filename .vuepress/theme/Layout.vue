@@ -6,7 +6,12 @@
                     <v-flex xs12 sm10 md8 class="text-xs-center">
                         <v-img src="" alt="logo"></v-img>
 
-                        <div class="amber--text text--darken-1 display-4 font-weight-black text-uppercase">Coming soon</div>
+                        <div class="amber--text text--darken-1 hidden-md-and-down display-4 font-weight-black text-uppercase">
+                            Coming soon
+                        </div>
+                        <div class="amber--text text--darken-1 hidden-lg-and-up display-3 font-weight-black text-uppercase">
+                            Coming soon
+                        </div>
                         <div class="display-3 font-weight-black">2019</div>
                     </v-flex>
                 </v-layout>
