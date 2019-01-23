@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Selfmade Enterprises',
+    title: 'SELF.MADE. Enterprises',
     description: '',
     themeConfig: {
         docsDir: '/'
