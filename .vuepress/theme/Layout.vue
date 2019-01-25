@@ -2,11 +2,11 @@
     <v-app id="selfmade" dark>
         <v-content>
             <v-container fluid fill-height>
-                <v-layout align-center justify-center column>
-                    <v-flex xs6>
-                        <v-img :src="$withBase('/logo.png')" alt="logo"></v-img>
-                    </v-flex>
+                <v-layout align-center justify-center row fill-height>
                     <v-flex xs12 sm10 md8 class="text-xs-center">
+                        <v-flex class="anpassung"  xs6 align-content-center justify-center>
+                            <v-img class="anpassung" justify-center align-center style="width: 300px" :src="$withBase('/SME_schw_hg.svg')" alt="logo"></v-img>
+                        </v-flex>
                         <div class="white--text display-3 font-weight-medium text-uppercase">
                             Coming soon
                         </div>
@@ -33,4 +33,10 @@
     .gold {
         color: #AE9A64;
     }
+    .anpassung
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 </style>
