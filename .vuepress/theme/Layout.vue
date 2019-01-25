@@ -5,7 +5,7 @@
                 <v-layout align-center justify-center row fill-height>
                     <v-flex xs12 sm10 md8 class="text-xs-center">
                         <v-flex class="anpassung"  xs6 align-content-center justify-center>
-                            <v-img class="anpassung" justify-center align-center style="width: 300px" :src="$withBase('/SME_schw_hg.svg')" alt="logo"></v-img>
+                            <v-img class="anpassung groeße" justify-center align-center style="width: 200px" :src="$withBase('/SME_schw_hg.svg')" alt="logo"></v-img>
                         </v-flex>
                         <div class="white--text display-3 font-weight-medium text-uppercase">
                             Coming soon
@@ -35,8 +35,15 @@
     }
     .anpassung
     {
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
+    }
+
+    @media only screen and (min-width: 900px) {
+
+        .groeße
+        {
+            width: 300px !important;
+        }
     }
 
 </style>
